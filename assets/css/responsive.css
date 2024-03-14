@@ -1,0 +1,305 @@
+@media (max-width: 1100px){
+    .hero-section .hero-text h1 {
+        font-size: 30px;
+    }
+    .envato-section {
+        padding: 20px 10px;
+        justify-content: center!important;
+        gap: 10px;
+    }
+    .product-features {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .modules-features {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+@media (max-width: 989px){
+    .hero-section .hero-text h1 {
+        font-size: 28px;
+    }
+    .hero-section .heroContent{
+        margin-top: 80px;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column-reverse;
+        min-height: auto !important;
+    }
+
+    .hero-section .column-one{
+        width: 100%;
+        order: 2;
+    }
+    .our-project-content {
+        margin-top: 25px;
+    }
+    .hero-section .column-two{
+        width: 100%;
+        order: 1;
+    }
+    .hero-text{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer-section .footer-link-text .item{
+        font-weight: 400;
+        gap: 2px;
+    }
+    .envato-img img{
+        width: 100px;
+    }
+    .envato-customer {
+        width: 50%;
+    }
+}
+@media (max-width: 800px){
+    .hover-button {
+        margin: 6px auto;
+    }
+    .product-features {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .modules-features {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .container{
+        overflow-x: auto;
+    }
+}
+
+
+@media (max-width: 768px){
+    .hero-section .hero-text h1 {
+        margin-top: 26px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .hero-section .hero-text p {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .hero-text{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .app-features-section {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .app-features-content div {
+        width: 100%;
+        text-align: center;
+    }
+    .our-project-content .app-icon-box img {
+        width: 65px;
+        float: none; 
+    }
+    .details-section .details-text{
+        margin-bottom: 20px !important;
+    }
+    .details-section .details-item-text{
+        margin-bottom: 35px;
+    }
+    .details-section .details-text h3 {
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .details-section .details-text p {
+        font-size: 14px;
+        margin-bottom: 0 !important;
+        padding-top: 10px !important;
+    }
+    .details-section {
+        margin-top: 30px;
+    }
+    .details-section-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .details-section-content .column-one{
+        width: 100%;
+        order: 2;
+        margin-bottom: 50px;
+    } 
+    .details-section-content .column-two{
+        width: 100%;
+        order: 1;
+    } 
+    .details-section-content .button-section{
+        margin: auto;
+    }
+    .details-section .buy-button {
+        font-weight: 400;
+        font-size: 14px;
+        padding: 8px 22px 10px 22px;
+    }
+    .details-section .apple-button {
+        font-weight: 400;
+        font-size: 14px;
+        padding: 8px 22px 10px 22px;
+    }
+    .details-section .google-play  {
+        font-weight: 400;
+        font-size: 14px;
+        padding: 8px 22px 10px 22px;
+    }
+
+    .price-section .price-heding-content h3 {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+    .price-section .price-heding-content h2 {
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+    .price-section h2 {
+        padding: 10px 0;
+    }
+    .price-section{
+        margin-bottom: 40px;
+    }
+    .footer-section {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer-section .socal-link{
+margin: auto !important;
+    }
+    .footer-section .addressContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-section .footer-link-text .item{
+        justify-content: center;
+    }
+    .footer-section .footer-link-text .item i{
+       display: none !important;
+    }
+    .owl-theme .owl-dots .owl-dot{
+        display: none;
+    }
+    .app-features{
+        padding: 0 0 0 0 !important;
+    }
+    .contact-section .address-part {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    .contact-section .address-part i {
+        font-size: 50px;
+    }
+    .contact-section .address-part h3 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 20px 0 10px 0;
+    }
+    .envato-section{
+        display: none;
+    }
+    .normal-price{
+        padding: 20px 
+    }
+}
+@media only screen and (max-width: 600px) {
+    .heroImg {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 540px){
+      .contact-section .address-part i {
+        font-size: 42px;
+      }
+      .container{
+        overflow-x: hidden !important;
+    }
+    .hero-section .hero-text h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .portfilio-section .portfolo-title {
+        font-size: 24px;
+    }
+    .contact-section .contact-title {
+        font-size: 24px;
+    }
+    .blog-text {
+        font-size: 24px;
+    }
+    .price-section .price-heding-content h3 {
+        font-size: 30px;
+    }
+    .price-section h2 {
+        font-size: 24px;
+    }
+    .our-project-content .section-text h2 {
+        font-size: 24px;
+    }
+    .navbar-toggler {
+        padding: 5px 8px;
+        font-size: 18px;
+    }
+    .contact-section .address-part i {
+        font-size: 30px;
+    }
+    .contact-section .address-part h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 20px 0 10px 0;
+    }
+    .product-features {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .modules-features {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+}
+@media (max-width: 460px){
+    /* .navbar-brand img{
+        width: 40px !important;
+    } */
+    .app-features-section {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+}
+@media (max-width: 350px){
+    .contact-section .content-item{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 320px){
+    .container{
+        overflow-x: hidden !important;
+    }
+    .navbar-brand img{
+        width: 140px !important;
+    }
+    
+    .navbar-toggler {
+        padding: 4px 6px;
+        font-size: 14px;
+    }
+    .contact-section .content-item{
+        width: 100%;
+    }
+
+}
